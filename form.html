@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>เต่าคะนอง พาท่องไทย</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>เต่าคะนอง พาท่องไทย</h1>
+    <h2 class="form" id="header">ลงทะเบียนเช่าบูธงาน "เต่าคะนอง พาท่องไทย"</h2>
+    <form class="form" id="info" name="register_form">
+      <!-- 1. Company Name -->
+      <div class="inputPart">
+        <p class="inline">ชื่อบริษัท :</p>
+        <input
+          class="short_ans"
+          type="text"
+          id="company_name"
+          name="company_name"
+          size="30"
+          placeholder="Company Name"
+        />
+      </div>
+      <!-- 2. Booth Size -->
+      <div class="inputPart">
+        <p class="inline">เลือกขนาดบูธ :</p>
+        <select name="booth_size" id="booth_size" size="1">
+          <option value="10x10">10 x 10 ฟุต</option>
+          <option value="10x15">10 x 15 ฟุต</option>
+        </select>
+      </div>
+      <!-- 3. Table Checkbox -->
+      <div class="inputPart">
+        <p class="inline">โต๊ะตั้งในบูธ :</p>
+        <input type="checkbox" id="tableNeed" name="tableNeed" />
+        <label for="tableNeed">ต้องการ</label>
+      </div>
+      <!-- 4. Number of Chairs -->
+      <div class="inputPart">
+        <p class="inline">จำนวนเก้าอี้ที่ต้องการ :</p>
+        <input
+          class="short_ans"
+          type="text"
+          id="chairs"
+          name="chairs"
+          size="3"
+          placeholder="1-10"
+        />
+      </div>
+      <!-- 5. Contact Name -->
+      <div class="inputPart">
+        <p class="inline">ชื่อผู้ติดต่อ :</p>
+        <input
+          class="short_ans"
+          type="text"
+          id="contact_name"
+          name="contact_name"
+          size="30"
+          placeholder="Name - Surname"
+        />
+      </div>
+      <!-- 6. Contact Number -->
+      <div class="inputPart">
+        <p class="inline">เบอร์โทรผู้ติดต่อ :</p>
+        <input
+          class="short_ans"
+          type="text"
+          id="tel"
+          name="tel"
+          size="15"
+          placeholder="xxx-xxxxxxx"
+        />
+      </div>
+      <!-- 7. Submit Button -->
+      <div class="submitPart">
+        <button class="greenButton" id="submitButton">ส่ง</button>
+      </div>
+    </form>
+  </body>
+</html>
